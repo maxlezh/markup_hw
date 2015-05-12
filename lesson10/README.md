@@ -4,7 +4,7 @@
 
 Необходимо сверстать блок из макета: https://yadi.sk/i/2rDxke3ugV26H
 
-![lesson10](https://raw.githubusercontent.com/puzankov/markup_hw/master/lesson10/lesson10.png)
+![lesson10](https://raw.githubusercontent.com/puzankov/markup_hw/master/lesson10/lesson10.jpg)
 
 ТЗ:
 
