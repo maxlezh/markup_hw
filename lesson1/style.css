@@ -1,0 +1,21 @@
+.my-block__paragraph {
+  width: 200px;
+  padding: 10px;
+  background-color: #bbb;
+  text-align:justify;
+}
+.put_in_center {
+	text-align: center;
+}
+.flow_on_the_right {
+	float: left; 
+    padding-right: 30px;  
+}
+.flow_on_the_left {
+	float: right;
+    
+}
+.link {
+	margin-top: 100px;
+	text-align: center;
+}
