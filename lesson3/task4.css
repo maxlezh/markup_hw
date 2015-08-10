@@ -1,0 +1,11 @@
+a[href*="ya"] {
+  color: #f70;
+}
+a[target]:after {
+	content: '\21F1';
+	position: absolute;
+	
+}
+a[href*="go"] {
+  color: #666;
+}
