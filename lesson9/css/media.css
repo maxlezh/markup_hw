@@ -1,0 +1,220 @@
+@media (max-width: 1279px) {
+
+.menu__item {
+	padding: 0 8px 32px;
+}
+
+.services__block {
+	width: 70%;
+	float: none;
+	display: block;
+	margin: 50px auto !important;
+}
+
+.pricing__block {
+	position: static;
+	display: block;
+	margin: 40px auto;
+}
+
+.testimonials__customer {
+	float: none;
+	width: 50%;
+	margin: 20px auto !important;
+}
+
+
+}
+
+@media (max-width: 954px) {
+
+.header__fixed {
+	height: 120px;
+}
+
+.logo, 
+.menu {
+	float: none;
+	margin: 0 auto;
+}
+
+.menu {margin-top: 20px;}
+
+.menu__item,
+.menu__item:hover {
+	border: 0;
+	padding-left: 0;
+}
+
+.intro__tittle,
+.intro__tittle-first {
+	font-size: 1.8em;
+}
+
+.intro__annotation {
+	font-size: 1.2em;
+}
+
+.intro__button {
+	font-size: 1em;
+	padding-top: 10px;
+	width: 172px;
+	height: 40px;
+}
+
+.services__tittle,
+.pricing__tittle {
+	font-size: 2em;
+}
+
+.middle__tittle {
+	font-size: 1.8em;
+}
+
+.middle__tittle_description {
+	font-size: 1.2em;
+}
+
+.middle__item {
+	font-size: 1em;
+}
+
+}
+
+
+@media (max-width: 600px) {
+
+.contacts .container { 
+	width: 90%;
+}
+
+.middle__tittle {
+	font-size: 1.4em;
+}
+
+.middle__tittle_description {
+	font-size: .8em;
+}
+
+.middle__item {
+	font-size: .8em;
+}
+
+.testimonials {
+	overflow: hidden;
+}
+
+.testimonials__tittle {
+	font-size: 2em;
+}
+
+.customer_block {
+	width: 320px;
+}
+
+.contacts {
+	font-size: .9em;
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+
+.header__fixed {
+	position: static;
+	height: auto;
+}
+
+.menu__item {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.customer_block {
+	width: 240px;
+}
+
+.contacts__left {
+	float: none;
+	margin: 0 auto;
+}
+
+.contacts__map {
+	display: none;
+}
+
+
+.social__item + .social__item {
+	margin-left: 5px;
+}
+
+.footer {
+	font-size: .8em;
+}
+
+}
+
+
+
+@media (max-width: 400px) {
+
+.container {
+	width: 95%;
+}
+
+.logo {
+	width: 80%;
+}
+
+.intro {
+	padding: 80px 0;
+}
+
+.intro__tittle {
+	font-size: 1.2em;
+}
+
+.services {
+	font-size: .9em;
+}
+
+.middle {
+	font-size: .9em;
+}
+
+.pricing {
+	font-size: .5em !important;
+}
+
+.customer_block {
+	margin: 0 5px;
+}
+
+.contacts__left {
+	width: 80%;
+}
+
+}
+
+
+@media (max-width: 320px) {
+
+.logo {
+	width: 90%;
+}
+
+.intro__annotation {
+	font-size: .8em;
+}
+
+.customer_block {
+	width: 180px;
+}
+
+
+
+}

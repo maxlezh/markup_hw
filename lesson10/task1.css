@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 14px/1 'Lato', sans-serif;
+
+	height: 100%;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*MAIN STYLES*/
+
+.work {
+	padding: 80px 0;
+
+	background: #f6f9f9;
+}
+
+.work__title {
+	font-size: 41px;
+
+	position: relative;
+
+	margin-bottom: 20px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #2d3950;
+}
+
+
+.work__annotation {
+	font-size: 15px;
+
+	display: block;
+
+	margin-bottom: 70px;
+
+	text-align: center;
+
+	color: #909090;
+}
+
+.thumbnails {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.work__pic {
+	position: relative;
+
+	display: inline-block;
+
+	width: 360px;
+	height: 260px;
+	margin: 0 15px 30px;
+}
+
+.work__img {
+	display: block;
+
+	width: 360px;
+	height: 260px;
+}
+
+
+.work__pic_scale,
+.work__pic_link {
+	font-size: 1.4em;
+
+	position: absolute;
+	top: 110px;
+
+	width: 40px;
+	height: 40px;
+	padding-top: .4em;
+
+	text-align: center;
+
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	transition: all .2s;
+}
+
+.work__pic_scale {
+	left: 130px;
+}
+
+.work__pic_link {
+	right: 130px;
+}
+
+.work__pic_hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 0;
+
+	transition: all .4s;
+
+	opacity: 0;
+	background: rgba(21,164,250, .8);
+}
+
+.work__pic:hover .work__pic_hover {
+	height: 100%;
+
+	opacity: 1;
+}
+
+.work__pic_scale:hover,
+.work__pic_link:hover {
+	border-color: transparent;
+	color: #162F4E;
+}
+
+/*MEDIA*/
+@media (max-width: 1170px) {
+	.thumbnails {
+		width: 780px;
+	}
+}
+
+@media (max-width: 780px) {
+	.thumbnails {
+		width: 390px;
+	}
+}

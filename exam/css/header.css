@@ -1,0 +1,121 @@
+/*MAIN STYLES*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 13px/1 'Helvetica', 'Arial', sans-serif;
+
+	height: 100%;
+
+	-webkit-font-smoothing: antialiased;
+}
+ol,
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+
+	content: '';
+}
+.clearfix:after {
+	clear: both;
+}
+.container {
+	max-width: 990px;
+	margin: 0 auto;
+}
+
+
+/*HEADER STYLES*/
+.header {
+	padding: 10px 0;
+
+	background: #3498db;
+}
+
+.header__logo {
+	float: left;
+
+	text-transform: uppercase;
+
+	color: #fff;
+}
+
+
+.header__logo_circle {
+	font-size: 20px;
+
+	display: inline-block;
+
+	width: 50px;
+	height: 50px;
+	padding-top: 13px;
+
+	text-align: center;
+
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+
+.header__logo_text {
+	font-size: 24px;
+	font-weight: 500;
+
+	display: inline-block;
+
+	margin-left: 10px;
+}
+
+.header__social {
+	float: right;
+}
+
+.social__main {
+	display: inline-block;
+
+	vertical-align: middle;
+}
+
+.header__social {
+	margin-top: 20px;
+}
+
+.social__main {
+	font-size: 13px;
+
+	margin-bottom: 12px;
+
+	color: #fff;
+}
+
+.sprite {
+	display: inline-block;
+
+	width: 22px;
+	height: 21px;
+
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+}
+
+.sprite-fb {
+	background-position: -2px -2px;
+}
+
+.sprite-google {
+	background-position: -28px -2px;
+}
+
+.sprite-tw {
+	background-position: -54px -2px;
+}

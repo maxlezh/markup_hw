@@ -1,0 +1,139 @@
+.pricing {
+	padding: 75px 0;
+	position: relative;
+}
+
+.pricing__tittle {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #41525c;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-bottom: 60px;
+}
+
+.pricing__block {
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	border-radius: 5px;
+}
+
+.pricing__block_tittle {
+	color: #fff;
+	font-size: 24px;
+	line-height: 64px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+}
+
+.pricing__block_inner {
+	padding: 25px 15px 15px;
+	background: #fff;
+	color: #4d4d4d;
+}
+
+.pricing__block_inner_tittle {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.pricing__block_inner_price {
+	text-align: center;
+	font-size: 72px;
+	color: #35495a;
+	margin-bottom: 30px;
+}
+
+.pricing__block_inner_price sup {
+	font-size: 36px;
+}
+
+.pricing__block_inner_price sub {
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.pricing__block_inner_list {
+	margin-bottom: 20px;
+}
+
+.pricing__block_inner_item {
+	margin-bottom: 1px;
+	text-align: left;
+	padding-left: 65px;
+	color: #888c94;
+	font-size: 15px;
+	line-height: 2;
+	font-family: 'Calibri', sans-serif;
+	font-weight: bold;
+	background: #edf5fd url(../img/marker.png) no-repeat 35px 5px;
+}
+
+.pricing__block_inner_item:nth-child(odd) {
+	background: #f5f5f6 url(../img/marker.png) no-repeat 35px 5px;
+}
+
+.pricing__block_inner_button {
+	display: block;
+	padding: 10px 74px;
+	margin: 0 auto;
+	background: #ee8129;
+	box-shadow: 0 4px 0 #b3560b;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fce6d4;
+}
+
+.pricing__block_left { 
+	left: 7%;
+	padding: 1px;
+	background: #e8eaec;
+}
+
+.pricing__block_left .pricing__block_tittle { 
+	background: #2bc2d5;
+	border-radius: 5px;
+}
+
+.pricing__block_center {
+	padding: 5px;
+	background: #F87A00;
+	box-shadow: 0 0 5px 3px #e0eef5;
+	left: 6%;
+	z-index: 1;
+}
+
+.pricing__block_right { 
+	right: -5%; 
+	padding: 1px;
+	background: #e8eaec;
+}
+
+.pricing__block_right .pricing__block_tittle { 
+	background: #00b89a; 
+	border-radius: 5px;
+}
+
+.pricing__block_center .pricing__block_tittle { line-height: 76px; }
+
+.pricing__block_center .pricing__block_inner { padding-bottom: 25px; }
+
+.pricing__block_left .pricing__block_inner_button,
+.pricing__block_right .pricing__block_inner_button {
+	background: #3070a8;
+	color: #fff;
+	box-shadow: 0 4px #13426b;
+}
+
+/*BUTTON ACTIVE STATE*/
+.pricing__block_inner_button:active {
+	box-shadow: none;
+	transform: translateY(3px);
+}

@@ -1,0 +1,15 @@
+/*FONTS*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800);
+
+/*BLOCK CSS*/
+@import url("normalize.css");
+@import url("myreset.css");
+@import url("header.css");
+@import url("intro.css");
+@import url("services.css");
+@import url("middle.css");
+@import url("pricing.css");
+@import url("testimonials.css");
+@import url("contacts.css");
+@import url("footer.css");
+@import url("media.css");

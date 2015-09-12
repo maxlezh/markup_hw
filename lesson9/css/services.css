@@ -1,0 +1,36 @@
+.services__inner {
+	padding: 66px 0 60px;
+}
+
+.services__tittle {
+	text-align: center;
+	color: #41525c;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS';
+	font-size: 30px;
+	margin-bottom: 54px;
+}
+
+.services__block {
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	width: 302px;
+}
+
+.services__block + .services__block {
+	margin-left: 59px;
+}
+
+.service__block_tittle {
+	font-size: 30px;
+	color: #3070a8;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 25px 0;
+}
+
+.service__block_description {
+	color: #bfbfbf;
+	line-height: 1.6;
+}

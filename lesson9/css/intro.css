@@ -1,0 +1,43 @@
+.intro {
+	background: #3070a8 url(../img/intro.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 150px 0 100px;
+	line-height: 1.4;
+}
+
+.intro__tittle-first {
+	text-transform: initial;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.intro__tittle {
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+.intro__annotation {
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 46px;
+}
+
+.intro__button {
+	display: block;
+	width: 246px;
+	height: 58px;
+	margin: 0 auto;
+	padding-top: 14px;
+	border: 1px solid #98a9b6;
+	border-radius: 3px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.intro__button:hover {
+	background: rgba(255,255,255, .2);
+}

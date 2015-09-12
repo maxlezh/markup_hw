@@ -1,0 +1,93 @@
+.footer {
+	padding: 50px 0 65px;
+
+	background: #3498db;
+}
+
+.footer__logo {
+	float: left;
+
+	padding-right: 30px;
+
+	text-transform: uppercase;
+
+	color: #fff;
+	border-right: 2px solid #2980b9;
+}
+
+
+.footer__logo_circle {
+	font-size: 26px;
+
+	display: inline-block;
+
+	width: 70px;
+	height: 70px;
+	padding-top: 20px;
+
+	text-align: center;
+	vertical-align: bottom;
+
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+
+.footer__logo_text {
+	font-size: 24px;
+	font-weight: 500;
+
+	display: inline-block;
+
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+
+.footer__logo_text_separetor {
+	display: block;
+}
+
+.footer__aside {
+	float: left;
+
+	padding: 10px 20px;
+}
+
+.social__main {
+	font-size: 13px;
+
+	margin-bottom: 12px;
+
+	color: #fff;
+}
+
+.sprite {
+	display: inline-block;
+
+	width: 22px;
+	height: 21px;
+
+	background-image: url(../img/spritesheet.png);
+	background-repeat: no-repeat;
+}
+
+.sprite-fb {
+	background-position: -2px -2px;
+}
+
+.sprite-google {
+	background-position: -28px -2px;
+}
+
+.sprite-tw {
+	background-position: -54px -2px;
+}
+
+.footer__copyright {
+	font-size: 13px;
+
+	color: #fff;
+}
+
+.footer__copyright_link {
+	color: #fff;
+}

@@ -1,0 +1,59 @@
+.proposal {
+	background: #f2f2f2;
+}
+
+.proposal__container {
+	position: relative;
+
+	width: 990px;
+	margin: 0 auto;
+	padding: 68px 0 62px;
+}
+
+.proposal__container:before {
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+
+	width: 225px;
+	height: 364px;
+
+	content: '';
+
+	background: url(../img/man.png) no-repeat;
+}
+
+.proposal__button {
+	font-size: 25px;
+
+	position: relative;
+
+	display: block;
+
+	width: 540px;
+	height: 60px;
+	padding: 20px 30px;
+
+	text-transform: uppercase;
+
+	color: #fff;
+	background: #e74c3c;
+}
+
+.proposal__button:hover,
+.proposal__button:active {
+	background: #ff5242;
+}
+
+.proposal__button:before {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+
+	width: 36px;
+	height: 36px;
+
+	content: '';
+
+	background: url(../img/r_arrow.png) no-repeat;
+}

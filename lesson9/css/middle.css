@@ -1,0 +1,30 @@
+.middle {
+	padding: 90px 0;
+	background: #243F41 url(../img/middle.jpg);
+	background-size: cover;
+}
+
+.middle__tittle {
+	font-size: 26px;
+	line-height: 1.8;
+	font-weight: 400;
+	color: #ee8129;
+	text-transform: uppercase;
+}
+
+.middle__tittle_description {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 19px;
+	color: #fff;
+	line-height: 1.8;
+	margin-bottom: 40px;
+}
+
+.middle__list {
+	padding-left: 40px;
+	width: 68%;
+	list-style: disc;
+	color: #fff;
+	line-height: 2;
+}

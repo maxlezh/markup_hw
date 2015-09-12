@@ -1,0 +1,73 @@
+.testimonials {
+	background: #3070a8 url(../img/testimonials-bg.jpg) no-repeat;
+	background-size: cover;
+	padding: 50px 0 80px;
+}
+
+.testimonials__tittle {
+	font-size: 40px;
+	color: #3170a8;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.testimonials__tittle_first {
+	color: #ee8129;
+	font-weight: 100;
+}
+
+.testimonials__img {
+	display: inline-block;
+	height: 98px; 
+	width: 98px;
+}
+
+.testimonials__img:nth-child(even) {
+	margin-left: 44px;
+}
+
+.testimonials__customer {
+	margin: 20px 0 0;
+	min-width: 500px;
+}
+
+.testimonials__customer:nth-child(even) {
+	margin-right: 24px;
+}
+
+.customer_block {
+	display: inline-block;
+	vertical-align: top;
+	width: 366px;
+	margin-left: 22px;
+	background: #f7f7f7;
+	padding: 10px 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.customer_header {
+	color: #3070a8;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #666;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.customer_header_name {
+	width: 70%;
+	/*ширина для дартаньяна*/
+}
+
+.customer_header_name:before {
+	content: '-';
+	margin-right: 2px;
+	margin-left: -2px;
+}
+
+.customer_text {
+	margin-top: 10px;
+	color: #737373;
+	font-family: 'Mariad Pro', sans-serif;
+	line-height: 1.7;
+}

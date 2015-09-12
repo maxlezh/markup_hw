@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font: 13px/1 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+	height: 100%;
+	font-family: "Trebuchet", Arial;
+	background: #212121; 
+}
+.container {
+	margin: 150px 20px 20px 20px;
+	position: relative;
+	display: inline-block; 
+}
+.container h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #EE8129;
+	position: absolute;
+	display: inline-block;
+	top: 30px;
+	left:  500px;
+	font-weight: normal;
+}
+.container h1 span {
+	color: #2F6BA1;
+}
+.container .second-image {
+	position: absolute;
+	display: inline-block;
+	top: 40%;
+	left: 150px;
+}
+ .message-1 {
+	display: inline-block;
+	width: 350px;
+	height: 105px;
+	background: white;
+	position: absolute;
+	top: 40%;
+	left: 280px;
+}
+.message-1:after {
+	content: "";
+	position: absolute;
+	border-right: 15px solid white;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	
+	left: -15px;
+	top: 40px;
+}
+
+.container .third-image {
+	position: absolute;
+	display: inline-block;
+	top: 40%;
+	left: 750px;
+	width: 107px;
+	height: 106px;
+}
+ .message-2 {
+	display: inline-block;
+	width: 350px;
+	height: 105px;
+	background: white;
+	position: absolute;
+	top: 40%;
+	left: 880px;
+}
+.message-2:after {
+	content: "";
+	position: absolute;
+	border-right: 15px solid white;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	
+	left: -15px;
+	top: 40px;
+}
+
+
+.name-customer {
+	font-style: italic;
+	color: #3070a8;
+	padding: 15px;
+	display: inline-block;
+}
+.role-right {
+	font-style: italic;
+	color: #3070a8;
+	padding: 15px;
+	display: inline-block;
+	float: right;
+}
+.name-customer:before {
+	content: '-';
+	margin-right: 2px;
+	margin-left: -2px;
+}
+.customer-text {
+	display: inline-block;
+	margin-top: 5px;
+	color: #737373;
+	font-family: 'Mariad Pro', sans-serif;
+	line-height: 1.7;
+	padding: 5px 15px 10px 15px;
+}
+.header {
+	border-bottom: 1px dashed #666;
+	margin: 0px 13px 0px 13px;
+}

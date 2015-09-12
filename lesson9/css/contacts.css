@@ -1,0 +1,76 @@
+.contacts {
+	position: relative;
+	height: 346px;
+}
+
+.contacts__left {
+	float: left;
+	width: 50%;
+	padding: 40px 0 30px;
+}
+
+.inner {
+	padding-left: 60px;
+	color: #666;
+}
+
+.inner__adress_item + .inner__adress_item {
+	margin-top: 20px;
+}
+
+.inner__address_list,
+.inner__tel_list,
+.inner__mail_list {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.inner__address_list:before,
+.inner__tel_list:before,
+.inner__mail_list:before {
+	content: '';
+	position: absolute;
+	width: 26px;
+	height: 32px;
+	left: -60px;
+	background: url(../img/spritesheet.png) no-repeat;
+}
+
+.inner__address_list:before { background-position: -156px -2px;  }
+.inner__tel_list:before { background-position: -130px -2px; }
+.inner__mail_list:before { background-position: -107px -2px;}
+
+.social__item {
+	display: inline-block;
+}
+
+.social__item + .social__item { margin-left: 20px;}
+
+.social__link {
+	width: 48px;
+	height: 48px;
+	display: block;
+	background: url(../img/spritesheet.png) no-repeat;
+}
+
+.social__link_fb {
+	background-position: -2px -2px;
+}
+
+.social__link_tw{
+	background-position: -54px -2px;
+}
+
+.social__link_in {
+	background-position: -183px -2px;
+}
+
+.contacts__map {
+	width: 50%;
+	height: 346px;
+	position: absolute;
+	right: 0;
+	background: #ccc url(../img/map.jpg) no-repeat;
+	background-size: cover;
+
+}

@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14/1 Arial, sans-serif;
+}
+
+.sivtsev {
+	margin: 30px auto;
+	width: 400px;
+	text-align:justify;
+	line-height: 1;
+	color: #000;
+}
+
+p:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+p {
+	color: rgba(0,0,0,0);
+	text-shadow: 0 0 4px #555;
+}
+
+.sight01 {font-size: 7rem; }
+.sight02 {font-size: 5rem;}
+.sight03 { font-size: 4rem;}
+.sight04 { font-size: 3.5rem;}
+.sight05 { font-size: 3rem;}
+.sight06 { font-size: 2.5rem;}
+.sight07 { font-size: 2rem;}
+.sight08 { font-size: 1.5rem;}
+.sight09 { font-size: 1rem;}
+.sight10 { font-size: .5rem;}
+.uline {height: 1px; background: red; margin: 10px 0; opacity: .3}
+.sight15 { font-size: .25rem}
+.sight20 { font-size: .05rem;}
